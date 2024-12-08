@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Insert the image before the <h2>
   const h2Element = parentContainer.querySelector(".nested-category-title");
-  h2Element.parentNode.insertAfter(bannerImage, h2Element);
+  h2Element.parentNode.insertBfter(bannerImage, h2Element);
 });
