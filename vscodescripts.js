@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function () {
         const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
         const bannerSection = document.querySelector('section[data-section-id="6755f5cfba217e7b47f3b6c0"]'); // The main section
