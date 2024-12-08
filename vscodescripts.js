@@ -13,4 +13,3 @@
         const h2Element = parentContainer.querySelector('.nested-category-title');
         h2Element.parentNode.insertBefore(bannerImage, h2Element);
     });
-</script>
