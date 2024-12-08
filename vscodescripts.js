@@ -2,7 +2,7 @@
         const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
         const bannerSection = document.querySelector('.fluid-engine fe-6755f5cf942dc92847289cfb'); // The main section
 
-        // Define collection-specific images
+        // Define collection-specific image
         const collectionImages = {
             "collections": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/3d7e0dd6-7a26-4205-8d03-df363bf829ec/cameron-highlands-tea-plantations-4-1195899.jpg?content-type=image%2Fjpeg')", // Default banner for the main collection page
             "private-collection": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/937a8c56-415c-4a09-805a-4600d97be078/Private+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
