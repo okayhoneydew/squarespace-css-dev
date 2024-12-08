@@ -10,7 +10,7 @@
             "innocent-flowers": "url('innocent-flowers-banner.jpg')",
             "the-hermetic-initiates": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/c2ff6596-5577-4685-870b-b399c8fa3866/Hermetic+banner+2+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
             "metropolis-mist": "url('metropolis-mist-banner.jpg')",
-            "the-calm": "url('the-calm-banner.jpg')"
+            "the-calm": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/580d2cff-25c9-4722-9bbf-7013748c0d3d/Calm+banner.jpg?content-type=image%2Fjpeg')"
         };
 
         collectionLinks.forEach(link => {
