@@ -1,6 +1,6 @@
     document.addEventListener("DOMContentLoaded", function () {
         const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
-        const bannerSection = document.querySelector('.fluid-engine'); // The main section
+        const bannerSection = document.querySelector('.fluid-engine fe-6755f5cf942dc92847289cfb'); // The main section
 
         // Define collection-specific images
         const collectionImages = {
