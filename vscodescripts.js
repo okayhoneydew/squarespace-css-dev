@@ -14,3 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const h2Element = parentContainer.querySelector(".nested-category-title");
   h2Element.parentNode.insertBefore(bannerImage, h2Element);
 });
+
+
+bannerImage.src = "https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/937a8c56-415c-4a09-805a-4600d97be078/Private+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg";
+
