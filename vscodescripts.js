@@ -1,6 +1,6 @@
     document.addEventListener("DOMContentLoaded", function () {
         const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
-        const bannerSection = document.querySelector('.#yui_3_17_2_1_1733687279328_668'); // The main section
+        const bannerSection = document.querySelector('#yui_3_17_2_1_1733687279328_668'); // The main section
 
         // Define collection-specific images
         const collectionImages = {
