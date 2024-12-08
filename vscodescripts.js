@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Select all the collection links
+    // Select all the collecton links
     const collectionLinks = document.querySelectorAll('.category-link'); 
     
     // Select the section by its data-section-id
