@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Create the image element
   const bannerImage = document.createElement("img");
-  bannerImage.src = "your-banner-image-url.jpg";
+  bannerImage.src = "https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/937a8c56-415c-4a09-805a-4600d97be078/Private+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg";
   bannerImage.alt = "Category Banner";
   bannerImage.style.width = "100%"; // Makes the banner full-width
   bannerImage.style.marginBottom = "20px"; // Adds space below the banner
