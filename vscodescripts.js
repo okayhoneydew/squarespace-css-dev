@@ -8,7 +8,7 @@
             "collection-1": "url('collection-1-banner.jpg')",
             "collection-2": "url('collection-2-banner.jpg')",
             "collection-3": "url('collection-3-banner.jpg')",
-            // Add more collections and their respective banner URLs here
+            // Add more collections and their respective banner URLs her
         };
 
         collectionLinks.forEach(link => {
