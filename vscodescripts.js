@@ -4,7 +4,7 @@
 
         // Define collection-specific images
         const collectionImages = {
-            "collections": "url('default-collection-banner.jpg')", // Default banner for the main collection page
+            "collections": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/3d7e0dd6-7a26-4205-8d03-df363bf829ec/cameron-highlands-tea-plantations-4-1195899.jpg?content-type=image%2Fjpeg')", // Default banner for the main collection page
             "private-collection": "url('private-collection-banner.jpg')",
             "potions-of-paisley": "url('potions-of-paisley-banner.jpg')",
             "innocent-flowers": "url('innocent-flowers-banner.jpg')",
