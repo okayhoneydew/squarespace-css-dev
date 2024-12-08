@@ -1,7 +1,7 @@
     document.addEventListener("DOMContentLoaded", function () {
         const collectionLinks = document.querySelectorAll('.collection-link'); // Links to each collection
         const bannerImage = document.getElementById('collection-banner-image'); // If using image block
-        const bannerSection = document.querySelector('.collection-banner'); // If using background image
+        const bannerSection = document.querySelector('.section[data-section-id="6755f5cfba217e7b47f3b6c0"]'); // If using background image
 
         // Define collection-specific images
         const collectionImages = {
