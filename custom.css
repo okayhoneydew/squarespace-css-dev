@@ -1,8 +1,3 @@
-/* custom.css */
-
-/* Your custom CSS overwrites come here */
-
-/* Default banner */
 .products.collection-content-wrapper.products-list {
     background-image: url('default-banner.jpg');
 }
