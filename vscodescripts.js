@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function () {
         const parentContainer = document.querySelector('.products.collection-content-wrapper.products-list');
         
@@ -17,4 +16,3 @@
         const h2Element = parentContainer.querySelector('.nested-category-title');
         h2Element.parentNode.insertBefore(bannerImage, h2Element);
     });
-</script>
