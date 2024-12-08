@@ -6,7 +6,7 @@
         const collectionImages = {
             "collections": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/3d7e0dd6-7a26-4205-8d03-df363bf829ec/cameron-highlands-tea-plantations-4-1195899.jpg?content-type=image%2Fjpeg')", // Default banner for the main collection page
             "private-collection": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/937a8c56-415c-4a09-805a-4600d97be078/Private+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
-            "potions-of-paisley": "url('potions-of-paisley-banner.jpg')",
+            "potions-of-paisley": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/cd27b4fa-2e3f-4a9a-a4ed-161fc2f9562a/Paisley+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
             "innocent-flowers": "url('innocent-flowers-banner.jpg')",
             "the-hermetic-initiates": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/c2ff6596-5577-4685-870b-b399c8fa3866/Hermetic+banner+2+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
             "metropolis-mist": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/e325e9aa-f52b-4ec6-bbb2-26066e861973/Metropolis+banner+%28JPEG%29.jpg?content-type=image%2Fjpeg')",
