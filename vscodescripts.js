@@ -4,7 +4,7 @@
 
         // Define collection-specific images
         const collectionImages = {
-            "Collections": "url('default-collection-banner.jpg')", // Default banner for the main collection page
+            "collections": "url('default-collection-banner.jpg')", // Default banner for the main collection page
             "private-collection": "url('private-collection-banner.jpg')",
             "potions-of-paisley": "url('potions-of-paisley-banner.jpg')",
             "innocent-flowers": "url('innocent-flowers-banner.jpg')",
