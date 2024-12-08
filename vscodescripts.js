@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Select the section by its data-section-id
     const bannerSection = document.querySelector('[data-section-id="6755f5cfba217e7b47f3b6c0"] .section-background');
-    const backgroundImage = sectionBackground ? sectionBackground.querySelector('img') : null; // Target the <img> tag within the section
-        // Check if the section is selected correctly
+const backgroundImage = sectionBackground ? sectionBackground.querySelector('img') : null; // Target the <img> tag within the section    // Check if the section is selected correctly
     if (!bannerSection) {
         console.log('Section not found!');
     }
