@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function () {
         const collectionLinks = document.querySelectorAll('.collection-link'); // Links to each collection
         const bannerImage = document.getElementById('collection-banner-image'); // If using image block
@@ -26,4 +25,3 @@
             });
         });
     });
-</script>
