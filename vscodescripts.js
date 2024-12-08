@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const collectionLinks = document.querySelectorAll('.category-link'); 
     
     // Select the section by its data-section-id
-    const bannerSection = document.querySelector('.fe-6755f5cf942dc92847289cfb"]'); 
+    const section = document.querySelector('#yui_3_17_2_1_1733688892521_663');
     
     // Check if the section is selected correctly
     if (!bannerSection) {
