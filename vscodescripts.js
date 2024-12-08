@@ -1,4 +1,4 @@
-   document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
         // Select the parent container
         const parentContainer = document.querySelector('.products.collection-content-wrapper.products-list');
         
