@@ -18,8 +18,3 @@
         h2Element.parentNode.insertBefore(bannerImage, h2Element);
     });
 </script>
-
-
-
-bannerImage.src = "";
-
