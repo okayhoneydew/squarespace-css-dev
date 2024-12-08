@@ -1,7 +1,14 @@
-    document.addEventListener("DOMContentLoaded", function () {
-        const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
-        const bannerSection = document.querySelector('.yui_3_17_2_1_1733687279328_669'); // The main section
-
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all the collection links
+    const collectionLinks = document.querySelectorAll('.category-link'); 
+    
+    // Select the section by its data-section-id
+    const bannerSection = document.querySelector('section[data-section-id="6755f5cfba217e7b47f3b6c0"]'); 
+    
+    // Check if the section is selected correctly
+    if (!bannerSection) {
+        console.log('Section not found!');
+    }
         // Define collection-specific images
         const collectionImages = {
             "collections": "url('https://images.squarespace-cdn.com/content/64a3d7a298b6160bf3ff7eed/3d7e0dd6-7a26-4205-8d03-df363bf829ec/cameron-highlands-tea-plantations-4-1195899.jpg?content-type=image%2Fjpeg')", // Default banner for the main collection page
