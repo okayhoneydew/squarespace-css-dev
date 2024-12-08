@@ -1,27 +1,24 @@
+<script>
     document.addEventListener("DOMContentLoaded", function () {
-        const collectionLinks = document.querySelectorAll('.collection-link'); // Links to each collection
-        const bannerImage = document.getElementById('collection-banner-image'); // If using image block
-        const bannerSection = document.querySelector('.section[data-section-id="6755f5cfba217e7b47f3b6c0"]'); // If using background image
+        const collectionLinks = document.querySelectorAll('.category-link'); // Links to collections
+        const bannerSection = document.querySelector('section[data-section-id="6755f5cfba217e7b47f3b6c0"]'); // The main section
 
         // Define collection-specific images
         const collectionImages = {
-            "collection-1": "url('collection-1-banner.jpg')",
-            "collection-2": "url('collection-2-banner.jpg')",
-            "collection-3": "url('collection-3-banner.jpg')",
-            // Add more collections and their respective banner URLs her
+            "default": "url('default-collection-banner.jpg')", // Default banner for the main collection page
+            "private-collection": "url('private-collection-banner.jpg')",
+            "potions-of-paisley": "url('potions-of-paisley-banner.jpg')",
+            "innocent-flowers": "url('innocent-flowers-banner.jpg')",
+            "the-hermetic-initiates": "url('hermetic-initiates-banner.jpg')",
+            "metropolis-mist": "url('metropolis-mist-banner.jpg')",
+            "the-calm": "url('the-calm-banner.jpg')"
         };
 
         collectionLinks.forEach(link => {
             link.addEventListener('click', function(event) {
                 const collectionId = event.target.dataset.collectionId; // Get the collection ID from the clicked link
-
-                if (bannerImage) {
-                    // If using an image block
-                    bannerImage.src = collectionImages[collectionId] || 'default-banner.jpg';
-                } else if (bannerSection) {
-                    // If using a background image
-                    bannerSection.style.backgroundImage = collectionImages[collectionId] || 'url("default-banner.jpg")';
-                }
+                // Update the section background image
+                bannerSection.style.backgroundImage = collectionImages[collectionId] || collectionImages["default"];
             });
         });
     });
