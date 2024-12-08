@@ -2,6 +2,16 @@
 
 /* Your custom CSS overwrites come here */
 
-{
-    This is a test fucker 2 blah blah
+/* Default banner */
+.products.collection-content-wrapper.products-list {
+    background-image: url('default-banner.jpg');
+}
+
+/* Category-specific banners */
+.category-123 .products.collection-content-wrapper.products-list {
+    background-image: url('category-1-banner.jpg');
+}
+
+.category-456 .products.collection-content-wrapper.products-list {
+    background-image: url('category-2-banner.jpg');
 }
